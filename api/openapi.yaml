@@ -1,0 +1,15 @@
+openapi: "3.0.0"
+info:
+  title: Yandex Alisa web hook API
+  version: 1.0.1
+paths:
+  /webhook:
+    post:
+      description: TBD
+      responses:
+        '200':
+          description: TBD
+          content:
+            application/json:
+              schema:
+                type: string
